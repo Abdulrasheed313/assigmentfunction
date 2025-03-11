@@ -134,6 +134,31 @@
 
 //   document.write(capitalizeFirstLetter(prompt("Enter Your Words"))); 
 
+// 12
 
-
+// function findWord(a) {
+ 
+//     var words = a.split(' ');
   
+   
+//     var longestWord = '';
+  
+  
+//     for (var i = 0; i < words.length; i++) {
+//       if (words[i].length > longestWord.length) {
+//         longestWord = words[i];
+//       }
+//     }
+  
+//     return longestWord;
+//   }
+  
+
+// document.write(findWord('Web Development Tutorial')); 
+
+//   13
+
+function findString(string, num){
+ return string + parseInt(num)
+}
+document.write(findString(prompt("Enter string"),+prompt("Enter Your Number")))
