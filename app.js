@@ -158,7 +158,9 @@
 
 //   13
 
-function findString(string, num){
- return string + parseInt(num)
-}
-document.write(findString(prompt("Enter string"),+prompt("Enter Your Number")))
+// function findString(string, num){
+//  return string + parseInt(num)
+// }
+// document.write(findString(prompt("Enter string"),+prompt("Enter Your Number")))
+
+// 14
